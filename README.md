@@ -22,12 +22,13 @@ import Swiper from '../common/upload'
 //html中的实例 propOption为配置项对象
     <upload :propOption='options.normalUpload'></upload>
 ```
+
 #### 默认配置示例
 ``` javascript
     // 其中propClass和action为必填属性，本示例中的值均为不设置时的默认值
     propOption: {
         propId: '', //组件容器的id名，后续作为唯一标识 必填
-        action: '', //上传的地址
+        action: '', //上传的地址，当前为Element官方上传demo地址
         accept: '', //默认的上传文件格式，多类型时用逗号隔开 描述方式有两种
                     //1.audio/*,video/*,image/* 例image/jpg、audio/mp3
                     //2.后缀名 .png,.jpg
